@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Claudio
-//
-//  Created by Kilian Koeltzsch on 25.05.20.
-//  Copyright © 2020 Kilian Koeltzsch. All rights reserved.
-//
-
 import Cocoa
 import SwiftUI
 
@@ -27,6 +19,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.center()
         window.setFrameAutosaveName("Main Window")
         window.contentView = NSHostingView(rootView: contentView)
+        window.titleVisibility = .hidden
+        window.titlebarAppearsTransparent = true
+        window.standardWindowButton(.zoomButton)?.isHidden = true
         window.makeKeyAndOrderFront(nil)
     }
 
@@ -34,6 +29,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
-
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        true
+    }
 }
 

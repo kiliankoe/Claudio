@@ -12,6 +12,8 @@
 		3956FA3F247C21360001129D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956FA3E247C21360001129D /* Assets.xcassets */; };
 		3956FA42247C21360001129D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956FA41247C21360001129D /* Preview Assets.xcassets */; };
 		3956FA45247C21360001129D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3956FA43247C21360001129D /* Main.storyboard */; };
+		3956FA63247D52520001129D /* ConversionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956FA62247D52520001129D /* ConversionHandler.swift */; };
+		3956FA68247D8B730001129D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956FA67247D8B730001129D /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		3956FA44247C21360001129D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3956FA46247C21360001129D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3956FA47247C21360001129D /* Claudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Claudio.entitlements; sourceTree = "<group>"; };
+		3956FA62247D52520001129D /* ConversionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionHandler.swift; sourceTree = "<group>"; };
+		3956FA67247D8B730001129D /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				3956FA3A247C21320001129D /* AppDelegate.swift */,
 				3956FA3C247C21320001129D /* ContentView.swift */,
+				3956FA62247D52520001129D /* ConversionHandler.swift */,
+				3956FA67247D8B730001129D /* ActivityIndicator.swift */,
 				3956FA3E247C21360001129D /* Assets.xcassets */,
 				3956FA43247C21360001129D /* Main.storyboard */,
 				3956FA46247C21360001129D /* Info.plist */,
@@ -90,6 +96,8 @@
 			dependencies = (
 			);
 			name = Claudio;
+			packageProductDependencies = (
+			);
 			productName = Claudio;
 			productReference = 3956FA37247C21320001129D /* Claudio.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +126,8 @@
 				Base,
 			);
 			mainGroup = 3956FA2E247C21320001129D;
+			packageReferences = (
+			);
 			productRefGroup = 3956FA38247C21320001129D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3956FA68247D8B730001129D /* ActivityIndicator.swift in Sources */,
+				3956FA63247D52520001129D /* ConversionHandler.swift in Sources */,
 				3956FA3D247C21320001129D /* ContentView.swift in Sources */,
 				3956FA3B247C21320001129D /* AppDelegate.swift in Sources */,
 			);
